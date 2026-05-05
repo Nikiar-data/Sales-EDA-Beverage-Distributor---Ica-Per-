@@ -1,41 +1,133 @@
-# 📊 Sales EDA | Beverage Distributor - Ica, Perú /  EDA de Ventas | Distribuidor de Bebidas - Ica, Perú
+# 📊 Sales EDA | Beverage Distributor - Ica, Perú
+
+# 📊 EDA de Ventas | Distribuidor de Bebidas - Ica, Perú
+
+---
 
 ## 📌 Description / Descripción
-Este presente proyecto tiene como proposito el analisis explotario de ventas de una licoreria en la ciudad de Ica-Parú, esta licoreria
-a parte de vender licores tambien de dedica a vender productos para cualquier publico, pero es necesario mencionar que los productos mas 
-destacados es alcohol y sus variantes.
 
-## 🎯 Objective/ Objetivo
-El objetivo de este proyecto fue analizar las tendencias de los productos respecto a sus categorias, conocer los dias y meses mas alto en ventas,
-conocer que producto y categoria le genera mas ingresos, asi como tambien conocer que productos y categorias son los que menos generan ingresos, pero tambien 
-analizar otras tendencias que ayudara a la licoreria conocerlos y tomar decisiones favorables para una mejora continua.
+Este proyecto consiste en un análisis exploratorio de datos (EDA) sobre las ventas de una licorería ubicada en la ciudad de Ica, Perú.
+
+Además de comercializar bebidas alcohólicas y sus derivados, el negocio también ofrece productos orientados al consumo general donde tambien 
+esta incluido en la analisis.
+
+---
+
+## 🎯 Objective / Objetivo
+
+El objetivo principal del proyecto fue analizar el comportamiento de ventas de la licorería para identificar:
+
+* Productos con mayor y menor demanda
+* Categorías con mayores ingresos
+* Tendencias de ventas por días y meses
+* Patrones de compra por transacción
+* Relación entre cantidad vendida y ventas totales
+* Indicadores relevantes para la toma de decisiones comerciales
+
+Todo ello con el propósito de generar información útil que contribuya a la mejora continua y a futuras estrategias del negocio.
+
+
 
 ## 🗂️ About the Data / Sobre los Datos
- Se hizo un analisis de ventas desde la fecha de 9/6/25 al 6/4/26, los datos de cantidad, productos, categorias
-y precio unitario son valores originales obtenidos de la licoreria, por otro lado, los registros de venta han sido datos simulados PERO cumpliento ciertos
-patrones de ventas donde ciertos productos son mas solicitados en cierto dia y mes.
+
+El análisis comprende registros de ventas desde junio de 2025 hasta abril de 2026.
+
+* Los datos relacionados con productos, categorías, precios y estructura comercial fueron proporcionados por la licorería.
+* Los registros transaccionales fueron simulados con fines analíticos, respetando patrones de comportamiento realistas, donde ciertos productos presentan mayor demanda dependiendo del día o mes.
+
+El dataset incluye variables como:
+
+* ID de venta
+* Fecha
+* Producto
+* Categoría
+* Precio unitario
+* Cantidad vendida
+* Venta total
+* Día
+* Mes
+
+---
 
 ## 🛠️ Tools Used / Herramientas Utilizadas
-Las herramientas utilizados fueron Python, Excel, Power Bi y SQL Server
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* SQL Server
+* Power BI
+* Excel
+
+---
 
 ## 📁 Project Structure / Estructura del Proyecto
-  ANALISIS_VENTAS_CAVA_DORADA/
+
+
+ANALISIS_VENTAS_CAVA_DORADA/
+│
 ├── 📁 datos/
 │   └── Ventas_Cava_Dorada_Final_v4.xlsx
+│
 ├── 📁 imagenes/
-│   └── consultas.sql
-├── 📁 sql/
-│   └── 
+│   └── gráficos y visualizaciones del análisis
+│
+├── 📁 dashboard/
+│   └── capturas del dashboard en Power BI
+│
 ├── 📁 powerbi/
-│   └── 
-├── 📁 imagenes/
-│   └── d
+│   └── Informe_visual_ventas_cava_dorada.pbix
+│
+├── 📁 sql/
+│   └── ventas_cava_dorada_2026.sql
+│
+├── eda.ipynb
+├── requirements.txt
 └── README.md
+
+
+---
 
 ## 📊 Analysis & Findings / Análisis y Hallazgos
 
+Algunos hallazgos relevantes obtenidos durante el análisis:
+
+* Los fines de semana, especialmente sábado y viernes, presentan los mayores ingresos.
+* La categoría “Combos” es la principal fuente de ingresos del negocio.
+* Existe una correlación positiva fuerte entre la cantidad de productos adquiridos y la venta total por transacción.
+* El negocio genera mayores ingresos principalmente por volumen de compra y no únicamente por productos de alto precio.
+* Determinados productos mantienen una demanda constante durante varios meses del año.
+
+---
+
 ## 📝 Conclusions / Conclusiones
+
+El análisis permitió identificar patrones clave de consumo y comportamiento comercial dentro de la licorería.
+
+Los resultados sugieren que las estrategias enfocadas en promociones por volumen, combos y campañas durante fines de semana podrían incrementar aún más los ingresos del negocio.
+
+Asimismo, el uso de herramientas como Python, SQL Server y Power BI permitió transformar datos en información útil para la toma de decisiones.
+
+---
 
 ## 🔗 Power BI Dashboard / Dashboard en Power BI
 
+El proyecto incluye un dashboard interactivo desarrollado en Power BI con filtros dinámicos por:
+
+* Mes
+* Día
+* Categoría
+* Productos
+
+El archivo `.pbix` se encuentra disponible en la carpeta:
+
+powerbi/
+
+---
+
 ## 👤 Author / Autor
+
+**Nikiar Auccasi**
+Estudiante de Ingeniería de Sistemas e Informática
+Enfoque en Análisis de Datos y Machine Learning
